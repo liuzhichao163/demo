@@ -28,6 +28,11 @@ import cn.tedu.store.service.ex.UserNotFoundException;
 import cn.tedu.store.service.ex.UsernameConflictException;
 import cn.tedu.store.util.Validator;
 
+/**
+ * 用户controller层
+ * @author ASUS
+ *
+ */
 @Controller
 @RequestMapping("/user")
 public class UserController extends BaseController{
